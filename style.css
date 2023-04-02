@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("img/PokemonKeren.jpg");
+    background-size: cover;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: 4px solid #0054C4;
+    background-color: #FDD400;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #0054C4;
+    color: #FDD400;
+}
+
+div #card {
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FDD400;
+    text-align: center;
+    align-items: center;
+}
+img {
+    width: 100px;
+    height: auto;
+}
