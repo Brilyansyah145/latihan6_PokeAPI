@@ -7,7 +7,7 @@ function getPokemon() {
     .then((data) => {
         document.querySelector("#card").innerHTML = `
         <div id="card">
-        <h1>${data.name}</h1>
+        <h3>${data.id}: ${data.name}</h3>
         <img src="${data.sprites.front_default}" alt="Pikachu">
         <p>Type: ${data.types[0].type.name}</p>
         </div>
